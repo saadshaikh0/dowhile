@@ -1,6 +1,7 @@
 
 import './App.css';
 import Hero from "./Components/hero"
+import ContactUs from "./Components/contactUs"
 
 function App() {
 
@@ -9,9 +10,7 @@ function App() {
       <div className = "HeroSection">
       <Hero/>
       </div>
-      <div className = "AboutSection p-5">
-        About
-      </div>
+      <ContactUs/>
     </div>
   );
 }
